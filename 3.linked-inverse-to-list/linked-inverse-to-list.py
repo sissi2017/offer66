@@ -1,4 +1,5 @@
 # -*- coding:utf-8 -*-
+
 # class ListNode:
 #     def __init__(self, x):
 #         self.val = x
@@ -13,3 +14,5 @@ class Solution:
             list.append(listNode.val)
             listNode = listNode.next
         return list[::-1]
+#构造链表函数
+#读取链表，写到list,再将list反序
